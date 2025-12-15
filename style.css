@@ -163,9 +163,24 @@ footer a {
 }
 
 
-@media (min-width: 768px) {
-  .hero {
-    min-height: 80vh;
-    padding: 6rem 0;
-  }
+.center-cards .card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-cards .row {
+  justify-content: center;
+}
+
+#sucursales a img {
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+#sucursales a img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+#nosotros .card {
+  background-color: #fff9f4;
 }

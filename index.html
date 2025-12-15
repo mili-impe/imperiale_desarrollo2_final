@@ -24,7 +24,7 @@
 
   <!-- NAV -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-brown">
+<nav class="navbar navbar-expand-lg navbar-dark bg-brown fixed-top">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
           <img src="img/timthumb.png" alt="Logo Café" class="logo_cf me-2">
@@ -57,6 +57,39 @@
         <a href="#sucursales" class="btn btn-outline-light btn-lg">Ver sucursales</a>
       </div>
     </section>
+
+    <!-- NOSOTROS -->
+<section id="nosotros" class="py-5">
+  <div class="container">
+
+    <h2 class="title2 text-center mb-5">Nosotros</h2>
+
+    <div class="row align-items-center justify-content-center g-4">
+
+      <!-- TEXTO -->
+      <div class="col-md-5">
+        <p class="mb-0">
+          En Café Martínez creemos que el café es más que una bebida: es un momento
+          para disfrutar, compartir y hacer una pausa. Seleccionamos granos de
+          calidad y cuidamos cada etapa del proceso para ofrecer una experiencia
+          auténtica en cada taza.
+        </p>
+      </div>
+
+      <!-- IMAGEN -->
+      <div class="col-md-5">
+        <img
+          src="img/Mask group.jpg"
+          class="img-fluid rounded"
+          alt="Preparación de café"
+        >
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
     <!-- PASTILLAS -->
     <section class="py-5 bg-white">
@@ -113,7 +146,7 @@
     </div>
 
     <!-- PRODUCTOS -->
-<section id="productos" class="py-5">
+<section id="productos" class="py-5 center-cards">
   <div class="container">
     <h2 class="title2 text-center mb-4">Nuestros productos</h2>
 
@@ -179,21 +212,64 @@
     </section>
 
     <!-- SUCURSALES -->
-    <section id="sucursales" class="py-5">
+<section id="sucursales" class="py-5 center-cards">
       <div class="container">
         <h2 class="title2 text-center mb-4">Nuestras sucursales</h2>
+<div class="row g-4 justify-content-center">
 
-        <div class="row g-4 justify-content-center">
-          <div class="col-md-4"><div class="card p-3"><h5>Sucursal Centro</h5><p class="small">Av. Principal 123</p></div></div>
-          <div class="col-md-4"><div class="card p-3"><h5>Sucursal Norte</h5><p class="small">Calle Norte 456</p></div></div>
-          <div class="col-md-4"><div class="card p-3"><h5>Sucursal Sur</h5><p class="small">Bv. Sur 789</p></div></div>
-        </div>
-      </div>
-    </section>
+  <div class="col-md-4">
+    <div class="card p-3">
+
+      <h5>Sucursal Centro</h5>
+      <p class="small">Av. Principal 123</p>
+
+      <a
+        href="https://www.google.com/maps/place/Cafe+Martinez/@-34.6039401,-58.4165959,17z/data=!4m10!1m2!2m1!1scafe+martinez+av+principal+123!3m6!1s0x95bcca8b7c33cd41:0x40c6812f67fb0296!8m2!3d-34.6039401!4d-58.4118323!15sCh5jYWZlIG1hcnRpbmV6IGF2IHByaW5jaXBhbCAxMjMiA4gBAVogIh5jYWZlIG1hcnRpbmV6IGF2IHByaW5jaXBhbCAxMjOSAQxlc3ByZXNzb19iYXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTmxhelkyT1hkUlJSQULgAQD6AQQIABAs!16s%2Fg%2F11c1mqyrv_?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/ubicacion1.jpg" class="img-fluid rounded" alt="Mapa sucursal centro">
+      </a>
+
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card p-3">
+
+      <h5>Sucursal Norte</h5>
+      <p class="small">Calle Norte 456</p>
+
+      <a
+        href="https://www.google.com/maps/place/Caf%C3%A9+Mart%C3%ADnez/@-34.6033193,-58.4225932,17z/data=!4m10!1m2!2m1!1scafe+martinez+av+principal+123!3m6!1s0x95bcca61fa902165:0x23f14fcc1679f722!8m2!3d-34.6033193!4d-58.4178296!15sCh5jYWZlIG1hcnRpbmV6IGF2IHByaW5jaXBhbCAxMjMiA4gBAVogIh5jYWZlIG1hcnRpbmV6IGF2IHByaW5jaXBhbCAxMjOSAQRjYWZlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1S1ZtRlhPVlZTU0ZwT1ZWVlNSMUZ1U2tsaE1VVjNWMnRHUldSWVl4QULgAQD6AQQIABA-!16s%2Fg%2F11bxf2yznb?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/ubicacion2.jpg" class="img-fluid rounded" alt="Mapa sucursal norte">
+      </a>
+
+    </div>
+  </div>
+
+<div class="col-md-4">
+  <div class="card p-3">
+
+    <h5>Sucursal Sur</h5>
+    <p class="small">Bv. Sur 789</p>
+
+    <a
+      href="https://www.google.com/maps/place/Caf%C3%A9+Mart%C3%ADnez/@-34.5991745,-58.4167671,17z/data=!4m10!1m2!2m1!1scafe+martinez+av+principal+123!3m6!1s0x95bccb007119c24b:0x2826c8c131fb310c!8m2!3d-34.5991745!4d-58.4120035!15sCh5jYWZlIG1hcnRpbmV6IGF2IHByaW5jaXBhbCAxMjMiA4gBAVogIh5jYWZlIG1hcnRpbmV6IGF2IHByaW5jaXBhbCAxMjOSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuVFVOdk9XWjZaSGQzUlJBQuABAPoBBAgkEBk!16s%2Fg%2F11y62fvzkn?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src="img/ubicacion3.jpg" class="img-fluid rounded" alt="Mapa sucursal sur">
+    </a>
+
+  </div>
+</div>
 
     <!-- CONTACTO -->
-    <section id="contacto" class="py-5 bg-white">
-      <div class="container">
+<section id="contacto" class="py-5 bg-white center-cards">      <div class="container">
         <h2 class="title2 text-center mb-4">Contáctanos</h2>
 
         <div class="row justify-content-center">
